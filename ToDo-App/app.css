@@ -1,0 +1,95 @@
+* {
+    font-family: "Walter Turncoat", cursive;
+    background-color: rgb(39, 76, 67);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-heading {
+    font-size: 5em;
+    font-weight: normal;
+    color: rgb(233, 227, 211);
+    text-align: center;
+    padding: 50px;
+}
+
+label {
+    padding: 0px 25px 0px 25px;
+    font-size: 3em;
+}
+
+#task-name {
+    width: 300px;
+    padding: 10px;
+    font-size: 32px;
+    color: rgb(96,179,211);
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#add-task {
+    display: flex;
+    align-items: center;
+    color: rgb(96,179,211);
+    font-size: 1.5em;
+    gap: 15px;
+}
+
+body {
+    border-style: solid;
+    border-width: 30px;
+    border-color: tan;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+button {
+    height: 30px;
+    border-radius: 40px;
+    background: rgb(159, 193, 198);
+    border: none;
+    outline: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 0.75em;
+    font-weight: 300;
+    color: white;
+}
+
+button:hover {
+    background: rgb(180, 141, 168);
+}
+
+form {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+    font-size: 1.5em;
+    color: rgb(213, 166, 198);
+    gap: 25px;
+}
+
+li span {
+    max-width: 400px;
+}
